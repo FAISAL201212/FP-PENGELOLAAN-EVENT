@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background untuk keseluruhan tampilan */
+.main-background {
+    background: url('sintetis.jpg') no-repeat center center fixed; /* Path menuju gambar */
+    background-size: cover; /* Menyesuaikan gambar dengan ukuran layar */
+    height: 100vh; /* Menggunakan tinggi layar penuh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Mengatur menu di kiri atas */
+.nav-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #5cb85c;
+}
+
+/* Mengatur menu di kanan atas */
+.nav-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Mengatur konten utama */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #444;
+}
+
+header p {
+    color: #555;
+    font-size: 1.2em;
+}
